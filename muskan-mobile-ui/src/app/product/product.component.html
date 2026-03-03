@@ -1,0 +1,16 @@
+<div *ngIf="products.length > 0">
+    <h2>Product List</h2>
+    <ul>
+      <li *ngFor="let product of products">
+        <strong>{{ product.name }}</strong><br />
+        Price: {{ product.price }}<br />
+        Category: {{ product.category }}<br />
+        Description: {{ product.description }}
+      </li>
+    </ul>
+  </div>
+  
+  <div *ngIf="products.length === 0">
+    <p>No products available.</p>
+  </div>
+  

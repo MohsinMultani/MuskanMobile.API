@@ -1,0 +1,29 @@
+<mat-card>
+    <mat-card-title>Create Product</mat-card-title>
+    <mat-card-content>
+      <form (ngSubmit)="create()" #productForm="ngForm">
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Name</mat-label>
+          <input matInput [(ngModel)]="product.name" name="name" required />
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Description</mat-label>
+          <input matInput [(ngModel)]="product.description" name="description" required />
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Price</mat-label>
+          <input matInput type="number" [(ngModel)]="product.price" name="price" required />
+        </mat-form-field>
+  
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Category ID</mat-label>
+          <input matInput type="number" [(ngModel)]="product.categoryId" name="categoryId" required />
+        </mat-form-field>
+  
+        <button mat-raised-button color="primary" type="submit">Create</button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+  

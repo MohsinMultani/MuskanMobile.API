@@ -1,0 +1,6 @@
+@MuskanMobile.API_HostAddress = http://localhost:5015
+
+GET {{MuskanMobile.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

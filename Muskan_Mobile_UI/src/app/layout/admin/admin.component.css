@@ -1,0 +1,11 @@
+.admin-layout {
+    display: flex;
+    height: calc(100vh - 64px); /* Assuming navbar is 64px */
+  }
+  
+  .content {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+  }
+  

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.32729.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuskanMobile.API", "MuskanMobile.API\MuskanMobile.API.csproj", "{D3F8A29B-2161-4D42-9D61-5CB70EAD2D68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuskanMobile.Domain", "MuskanMobile.Domain\MuskanMobile.Domain.csproj", "{1BE10F12-A8BC-4F18-BB1E-CF38B2558569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuskanMobile.Application", "MuskanMobile.Application\MuskanMobile.Application.csproj", "{E967ECD8-EB59-400B-A934-065FCA372EEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuskanMobile.Infrastructure", "MuskanMobile.Infrastructure\MuskanMobile.Infrastructure.csproj", "{1CC541DF-FF81-49B5-823B-16D45E62B8D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3F8A29B-2161-4D42-9D61-5CB70EAD2D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F8A29B-2161-4D42-9D61-5CB70EAD2D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F8A29B-2161-4D42-9D61-5CB70EAD2D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F8A29B-2161-4D42-9D61-5CB70EAD2D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE10F12-A8BC-4F18-BB1E-CF38B2558569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE10F12-A8BC-4F18-BB1E-CF38B2558569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE10F12-A8BC-4F18-BB1E-CF38B2558569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE10F12-A8BC-4F18-BB1E-CF38B2558569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E967ECD8-EB59-400B-A934-065FCA372EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E967ECD8-EB59-400B-A934-065FCA372EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E967ECD8-EB59-400B-A934-065FCA372EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E967ECD8-EB59-400B-A934-065FCA372EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC541DF-FF81-49B5-823B-16D45E62B8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC541DF-FF81-49B5-823B-16D45E62B8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC541DF-FF81-49B5-823B-16D45E62B8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC541DF-FF81-49B5-823B-16D45E62B8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AD75BD7-58AE-4876-BC24-693B066E8C4E}
+	EndGlobalSection
+EndGlobal
