@@ -26,7 +26,6 @@ namespace MuskanMobile.API.Controllers
             _configuration = configuration;
         }
 
-
         [HttpGet("debug-connection")]
         public IActionResult DebugConnection()
         {
