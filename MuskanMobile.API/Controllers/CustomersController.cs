@@ -53,7 +53,7 @@ namespace MuskanMobile.API.Controllers
             return Ok(results);
         }
 
-        [HttpGet("debug-finalllllll")]
+        [HttpGet("debug-finalllllTest")]
         public async Task<IActionResult> DebugFinal()
         {
             var results = new Dictionary<string, object>();
